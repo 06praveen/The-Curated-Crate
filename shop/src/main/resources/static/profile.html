@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile — The Curated Crate</title>
+  <meta name="description" content="Manage your profile, view order history, and subscription on The Curated Crate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <nav id="tcc-navbar"></nav>
+
+  <!-- Profile Header -->
+  <div class="profile-header">
+    <div class="profile-header-bg"></div>
+    <div class="container profile-header-content">
+      <div class="profile-avatar-wrap">
+        <div class="profile-avatar" id="profileAvatar">D</div>
+        <div class="profile-avatar-badge">✓</div>
+      </div>
+      <div class="profile-info">
+        <p class="profile-eyebrow">Member Since <span id="memberSince">—</span></p>
+        <h1 class="profile-name" id="profileName">—</h1>
+        <p class="profile-email" id="profileEmail">—</p>
+        <div class="profile-quick-stats" id="profileQuickStats"></div>
+      </div>
+      <button class="btn btn-outline profile-logout-btn" onclick="Auth.logout()" style="color:white;border-color:rgba(255,255,255,0.3)">
+        Sign Out
+      </button>
+    </div>
+  </div>
+
+  <!-- Profile Main -->
+  <main class="profile-main section">
+    <div class="container">
+
+      <!-- Tab Navigation -->
+      <div class="profile-tabs">
+        <button class="profile-tab active" onclick="switchTab('orders', this)">
+          <span>📦</span> My Orders
+        </button>
+        <button class="profile-tab" onclick="switchTab('subscription', this)">
+          <span>🎁</span> Subscription
+        </button>
+        <button class="profile-tab" onclick="switchTab('preferences', this)">
+          <span>⚙️</span> Preferences
+        </button>
+        <button class="profile-tab" onclick="switchTab('account', this)">
+          <span>👤</span> Account
+        </button>
+      </div>
+
+      <!-- ─── ORDERS TAB ───────────────────────────────────────── -->
+      <div class="tab-panel" id="tabOrders">
+        <div class="tab-panel-header">
+          <h2 class="tab-title">Order History</h2>
+          <div id="ordersFilterBtns" class="orders-filter"></div>
+        </div>
+        <div id="ordersList"></div>
+      </div>
+
+      <!-- ─── SUBSCRIPTION TAB ─────────────────────────────────── -->
+      <div class="tab-panel hidden" id="tabSubscription">
+        <div class="subscription-hero">
+          <div class="sub-hero-text">
+            <span class="section-eyebrow">Monthly Crate</span>
+            <h2 class="sub-title">The Curated Crate Box</h2>
+            <p class="sub-desc">
+              Receive a monthly curation of 4–6 handpicked artisan pieces from a different Indian
+              state. Includes artisan letters, craft guides, and exclusive member discounts.
+            </p>
+            <div class="sub-status-card" id="subStatusCard">
+              <!-- Filled by JS -->
+            </div>
+          </div>
+          <div class="sub-hero-img">
+            <img src="https://images.unsplash.com/photo-1513201099705-a9746bab22b7?w=500&q=80" alt="Curated crate box">
+          </div>
+        </div>
+
+        <div class="sub-plans">
+          <h3 class="sub-plans-title">Choose Your Plan</h3>
+          <div class="sub-plans-grid">
+            <div class="sub-plan-card" id="planMonthly">
+              <div class="plan-badge">Popular</div>
+              <h4 class="plan-name">Monthly</h4>
+              <div class="plan-price">₹1,499<span>/month</span></div>
+              <ul class="plan-features">
+                <li>✓ 4–6 artisan pieces</li>
+                <li>✓ Artisan letter</li>
+                <li>✓ Free shipping</li>
+                <li>✓ Cancel anytime</li>
+              </ul>
+              <button class="btn btn-primary" onclick="subscribePlan('monthly')">Subscribe Monthly</button>
+            </div>
+            <div class="sub-plan-card featured" id="planQuarterly">
+              <div class="plan-badge gold">Best Value</div>
+              <h4 class="plan-name">Quarterly</h4>
+              <div class="plan-price">₹3,999<span>/quarter</span></div>
+              <div class="plan-saving">Save ₹498</div>
+              <ul class="plan-features">
+                <li>✓ 3 monthly crates</li>
+                <li>✓ Exclusive regional box</li>
+                <li>✓ Priority selection</li>
+                <li>✓ 10% product discount</li>
+              </ul>
+              <button class="btn btn-primary" onclick="subscribePlan('quarterly')">Subscribe Quarterly</button>
+            </div>
+            <div class="sub-plan-card" id="planAnnual">
+              <div class="plan-badge">Premium</div>
+              <h4 class="plan-name">Annual</h4>
+              <div class="plan-price">₹14,999<span>/year</span></div>
+              <div class="plan-saving">Save ₹2,989</div>
+              <ul class="plan-features">
+                <li>✓ 12 monthly crates</li>
+                <li>✓ Artisan meetup invite</li>
+                <li>✓ 15% product discount</li>
+                <li>✓ Dedicated curator</li>
+              </ul>
+              <button class="btn btn-dark" onclick="subscribePlan('annual')">Subscribe Annual</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── PREFERENCES TAB ──────────────────────────────────── -->
+      <div class="tab-panel hidden" id="tabPreferences">
+        <h2 class="tab-title">Your Craft Preferences</h2>
+        <p class="tab-subtitle">We use these to personalize your curation recommendations.</p>
+
+        <div class="pref-section">
+          <h3 class="pref-section-title">Craft Categories</h3>
+          <div class="pref-chips" id="prefCategories">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+
+        <div class="pref-section">
+          <h3 class="pref-section-title">Indian Regions You Love</h3>
+          <div class="pref-chips" id="prefRegions"></div>
+        </div>
+
+        <div class="pref-section">
+          <h3 class="pref-section-title">Price Range Comfort</h3>
+          <div class="pref-price-group">
+            <label class="pref-radio"><input type="radio" name="priceRange" value="budget"> <span>Under ₹2,000</span></label>
+            <label class="pref-radio"><input type="radio" name="priceRange" value="mid" checked> <span>₹2,000–₹8,000</span></label>
+            <label class="pref-radio"><input type="radio" name="priceRange" value="premium"> <span>₹8,000–₹20,000</span></label>
+            <label class="pref-radio"><input type="radio" name="priceRange" value="luxury"> <span>₹20,000+</span></label>
+          </div>
+        </div>
+
+        <div class="pref-section">
+          <h3 class="pref-section-title">Notification Preferences</h3>
+          <div class="pref-toggles">
+            <div class="pref-toggle-item">
+              <div>
+                <strong>New Arrivals</strong>
+                <span>Get notified when new artisan crafts are added</span>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="notifNew" checked>
+                <span class="toggle-track"></span>
+              </label>
+            </div>
+            <div class="pref-toggle-item">
+              <div>
+                <strong>Exclusive Offers</strong>
+                <span>Member-only discounts and early access</span>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="notifOffers" checked>
+                <span class="toggle-track"></span>
+              </label>
+            </div>
+            <div class="pref-toggle-item">
+              <div>
+                <strong>Artisan Stories</strong>
+                <span>Monthly stories from the artisan community</span>
+              </div>
+              <label class="toggle-switch">
+                <input type="checkbox" id="notifStories">
+                <span class="toggle-track"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="savePreferences()">Save Preferences</button>
+      </div>
+
+      <!-- ─── ACCOUNT TAB ──────────────────────────────────────── -->
+      <div class="tab-panel hidden" id="tabAccount">
+        <h2 class="tab-title">Account Details</h2>
+        <div class="account-form-wrap">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-input" id="accName" placeholder="Your full name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" id="accEmail" placeholder="Email" disabled style="background:var(--clr-ivory-dk);opacity:0.7">
+            <p style="font-size:0.75rem;color:var(--clr-text-muted);margin-top:4px">Email cannot be changed</p>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" class="form-input" id="accPhone" placeholder="10-digit number" maxlength="10">
+          </div>
+          <button class="btn btn-primary" onclick="saveAccount()">Save Changes</button>
+
+          <div class="danger-zone">
+            <h3>Danger Zone</h3>
+            <p>Permanently delete your account and all associated data.</p>
+            <button class="btn btn-outline" style="border-color:#c0392b;color:#c0392b" onclick="deleteAccount()">Delete Account</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="shared.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>

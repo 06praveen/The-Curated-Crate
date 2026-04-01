@@ -1,0 +1,1659 @@
+
+[ERROR] COMPILATION ERROR 
+: 
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[8,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[6,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[7,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[8,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[6,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[1,1]
+ illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[1,10
+] class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[3,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[4,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[5,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[8,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[9,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[1,1] illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[1,10] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[8,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[8,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[9,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/UserPreferenceReposit
+ory.java:[1,1] illegal 
+character: '\ufeff'
+[INFO] 100 errors 
+[ERROR] Failed to execute 
+goal org.apache.maven.plug
+ins:maven-compiler-plugin:
+3.14.1:compile 
+(default-compile) on 
+project shop: Compilation 
+failure: Compilation 
+failure: 
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/ShopAp
+plication.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/dto/Au
+thDto.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Address.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Artisan.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/CartItem.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Order.java:[8,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/OrderItem.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[6,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[7,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Product.java:[8,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[1,1] 
+illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[1,10] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[3,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[4,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[5,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/Subscription.java:[6,1] 
+class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/User.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[1,1]
+ illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[1,10
+] class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[3,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[4,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/entity
+/UserPreference.java:[5,1]
+ class, interface, enum, 
+or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/AddressRepository.jav
+a:[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[8,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/CartItemRepository.ja
+va:[9,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[1,1] illegal character: 
+'\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[1,10] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/OrderRepository.java:
+[8,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[3,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[4,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[5,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[6,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[7,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[8,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/ProductRepository.jav
+a:[9,1] class, interface, 
+enum, or record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[1,10] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[3,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[4,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[5,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[6,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/SubscriptionRepositor
+y.java:[7,1] class, 
+interface, enum, or 
+record expected
+[ERROR] /C:/Users/Admin/On
+eDrive/Documents/JavaBacke
+nd/The Curated Crate/Claud
+e/shop/src/main/java/com/t
+hecuratedcrate/shop/reposi
+tory/UserPreferenceReposit
+ory.java:[1,1] illegal 
+character: '\ufeff'
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full 
+stack trace of the 
+errors, re-run Maven with 
+the -e switch.
+[ERROR] Re-run Maven 
+using the -X switch to 
+enable full debug logging.
+[ERROR] 
+[ERROR] For more 
+information about the 
+errors and possible 
+solutions, please read 
+the following articles:
+[ERROR] [Help 1] http://cw
+iki.apache.org/confluence/
+display/MAVEN/MojoFailureE
+xception
+
+

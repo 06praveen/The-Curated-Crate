@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — The Curated Crate</title>
+  <meta name="description" content="Complete your order from The Curated Crate. Secure checkout, fast delivery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+  <nav id="tcc-navbar"></nav>
+
+  <div class="checkout-page">
+    <div class="container">
+      <!-- Steps Indicator -->
+      <div class="checkout-steps">
+        <div class="step active" id="step1ind">
+          <div class="step-num">1</div>
+          <span>Address</span>
+        </div>
+        <div class="step-line"></div>
+        <div class="step" id="step2ind">
+          <div class="step-num">2</div>
+          <span>Payment</span>
+        </div>
+        <div class="step-line"></div>
+        <div class="step" id="step3ind">
+          <div class="step-num">3</div>
+          <span>Review</span>
+        </div>
+      </div>
+
+      <div class="checkout-layout">
+        <!-- ─── Form Panels ── -->
+        <div class="checkout-forms">
+
+          <!-- Step 1: Address -->
+          <div class="checkout-panel" id="panelAddress">
+            <h2 class="panel-title">Delivery Address</h2>
+            <form id="addressForm" novalidate>
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label class="form-label" for="cName">Full Name</label>
+                  <input type="text" id="cName" class="form-input" placeholder="Recipient's full name">
+                  <span class="form-error" id="cNameErr"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="cPhone">Phone Number</label>
+                  <input type="tel" id="cPhone" class="form-input" placeholder="10-digit mobile number" maxlength="10">
+                  <span class="form-error" id="cPhoneErr"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="cAddress">Street Address</label>
+                <input type="text" id="cAddress" class="form-input" placeholder="House no, Street, Area">
+                <span class="form-error" id="cAddressErr"></span>
+              </div>
+              <div class="form-row-3">
+                <div class="form-group">
+                  <label class="form-label" for="cCity">City</label>
+                  <input type="text" id="cCity" class="form-input" placeholder="City">
+                  <span class="form-error" id="cCityErr"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="cState">State</label>
+                  <select id="cState" class="form-input">
+                    <option value="">Select State</option>
+                    <option>Andhra Pradesh</option><option>Assam</option><option>Bihar</option>
+                    <option>Chhattisgarh</option><option>Delhi</option><option>Gujarat</option>
+                    <option>Haryana</option><option>Himachal Pradesh</option><option>Jammu & Kashmir</option>
+                    <option>Jharkhand</option><option>Karnataka</option><option>Kerala</option>
+                    <option>Madhya Pradesh</option><option>Maharashtra</option><option>Manipur</option>
+                    <option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option>
+                    <option>Odisha</option><option>Punjab</option><option>Rajasthan</option>
+                    <option>Sikkim</option><option>Tamil Nadu</option><option>Telangana</option>
+                    <option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option>
+                    <option>West Bengal</option>
+                  </select>
+                  <span class="form-error" id="cStateErr"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="cPin">PIN Code</label>
+                  <input type="text" id="cPin" class="form-input" placeholder="6-digit PIN" maxlength="6">
+                  <span class="form-error" id="cPinErr"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Address Type</label>
+                <div class="address-type-group">
+                  <label class="type-radio">
+                    <input type="radio" name="addrType" value="Home" checked>
+                    <span>🏠 Home</span>
+                  </label>
+                  <label class="type-radio">
+                    <input type="radio" name="addrType" value="Work">
+                    <span>🏢 Work</span>
+                  </label>
+                  <label class="type-radio">
+                    <input type="radio" name="addrType" value="Other">
+                    <span>📍 Other</span>
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+                Continue to Payment →
+              </button>
+            </form>
+          </div>
+
+          <!-- Step 2: Payment -->
+          <div class="checkout-panel hidden" id="panelPayment">
+            <h2 class="panel-title">Payment Method</h2>
+            <div class="payment-methods">
+              <label class="payment-method" id="pmUPI">
+                <input type="radio" name="payment" value="upi" checked onchange="updatePaymentUI()">
+                <div class="pm-icon">📱</div>
+                <div class="pm-info">
+                  <strong>UPI</strong>
+                  <span>GPay, PhonePe, Paytm</span>
+                </div>
+                <div class="pm-check">✓</div>
+              </label>
+              <label class="payment-method" id="pmCard">
+                <input type="radio" name="payment" value="card" onchange="updatePaymentUI()">
+                <div class="pm-icon">💳</div>
+                <div class="pm-info">
+                  <strong>Credit / Debit Card</strong>
+                  <span>Visa, Mastercard, RuPay</span>
+                </div>
+                <div class="pm-check">✓</div>
+              </label>
+              <label class="payment-method" id="pmNetbanking">
+                <input type="radio" name="payment" value="netbanking" onchange="updatePaymentUI()">
+                <div class="pm-icon">🏦</div>
+                <div class="pm-info">
+                  <strong>Net Banking</strong>
+                  <span>All major banks supported</span>
+                </div>
+                <div class="pm-check">✓</div>
+              </label>
+              <label class="payment-method" id="pmCOD">
+                <input type="radio" name="payment" value="cod" onchange="updatePaymentUI()">
+                <div class="pm-icon">💵</div>
+                <div class="pm-info">
+                  <strong>Cash on Delivery</strong>
+                  <span>Pay when your crate arrives</span>
+                </div>
+                <div class="pm-check">✓</div>
+              </label>
+            </div>
+
+            <!-- UPI Panel -->
+            <div class="pm-panel" id="upiPanel">
+              <div class="form-group">
+                <label class="form-label">UPI ID</label>
+                <input type="text" class="form-input" placeholder="yourname@upi" id="upiId">
+              </div>
+            </div>
+
+            <!-- Card Panel -->
+            <div class="pm-panel hidden" id="cardPanel">
+              <div class="form-group">
+                <label class="form-label">Card Number</label>
+                <input type="text" class="form-input" placeholder="1234 5678 9012 3456" maxlength="19" id="cardNum" oninput="formatCardNum(this)">
+              </div>
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label class="form-label">Expiry</label>
+                  <input type="text" class="form-input" placeholder="MM/YY" maxlength="5" id="cardExp" oninput="formatExpiry(this)">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">CVV</label>
+                  <input type="password" class="form-input" placeholder="•••" maxlength="4" id="cardCvv">
+                </div>
+              </div>
+            </div>
+
+            <!-- Net Banking Panel -->
+            <div class="pm-panel hidden" id="netbankingPanel">
+              <div class="form-group">
+                <label class="form-label">Select Bank</label>
+                <select class="form-input" id="bankSelect">
+                  <option value="">Choose your bank</option>
+                  <option>State Bank of India</option>
+                  <option>HDFC Bank</option>
+                  <option>ICICI Bank</option>
+                  <option>Axis Bank</option>
+                  <option>Kotak Mahindra Bank</option>
+                  <option>Bank of Baroda</option>
+                  <option>Punjab National Bank</option>
+                  <option>Canara Bank</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- COD Panel -->
+            <div class="pm-panel hidden cod-note" id="codPanel">
+              <div class="cod-note-inner">
+                <span>📦</span>
+                <p>No advance payment required. Pay in cash when your artisan craft arrives at your doorstep.</p>
+              </div>
+            </div>
+
+            <div class="step-actions">
+              <button class="btn btn-ghost" onclick="goToStep(1)">← Back</button>
+              <button class="btn btn-primary btn-lg" onclick="goToStep(3)">Review Order →</button>
+            </div>
+          </div>
+
+          <!-- Step 3: Review -->
+          <div class="checkout-panel hidden" id="panelReview">
+            <h2 class="panel-title">Review Your Order</h2>
+            <div id="reviewContent"></div>
+            <div class="step-actions">
+              <button class="btn btn-ghost" onclick="goToStep(2)">← Change Payment</button>
+              <button class="btn btn-primary btn-lg" id="placeOrderBtn" onclick="placeOrder()">
+                <span id="placeText">Place Order ✦</span>
+                <span id="placeSpinner" style="display:none">
+                  <svg class="spin-svg" viewBox="0 0 24 24" fill="none" width="20" height="20"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.3)" stroke-width="3"/><path d="M12 2a10 10 0 0 1 10 10" stroke="white" stroke-width="3" stroke-linecap="round"/></svg>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 4: Success -->
+          <div class="checkout-panel hidden" id="panelSuccess">
+            <div class="order-success">
+              <div class="success-animation">
+                <div class="success-circle">✓</div>
+              </div>
+              <h2 class="success-title">Order Placed!</h2>
+              <p class="success-sub">Your artisan crate is on its way.</p>
+              <p class="success-order-id" id="successOrderId"></p>
+              <div class="success-delivery">
+                <span>📅</span>
+                <p>Estimated delivery: <strong id="deliveryDate"></strong></p>
+              </div>
+              <div class="success-artisan-note">
+                <span>💚</span>
+                <p id="successImpact"></p>
+              </div>
+              <div class="success-actions">
+                <a href="profile.html" class="btn btn-primary">Track Your Order</a>
+                <a href="product.html" class="btn btn-outline">Continue Shopping</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ─── Order Summary Sidebar ── -->
+        <div class="checkout-sidebar">
+          <div class="checkout-order-summary">
+            <h3 class="checkout-os-title">Order Summary</h3>
+            <div id="checkoutItemsList"></div>
+            <div class="checkout-total-section" id="checkoutTotalSection"></div>
+          </div>
+          <div class="checkout-secure-note">
+            <span>🔒</span>
+            <p>256-bit SSL encrypted. Your payment info is never stored.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="shared.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>

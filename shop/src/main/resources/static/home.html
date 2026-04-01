@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Curated Crate — Authentic Indian Artisan Crafts</title>
+  <meta name="description" content="Discover handmade Indian artisan crafts. Each piece tells a story. Buy ethical, buy authentic. Support 1,200+ artisans across 18 Indian states.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="tcc-navbar"></nav>
+
+  <!-- ═══ HERO SECTION ════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1609619385002-f40f1df9b7eb?w=1600&q=85" alt="Indian artisan weaving" class="hero-bg-img" id="heroBgImg">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="hero-text">
+        <div class="hero-eyebrow reveal">
+          <span class="eyebrow-line"></span>
+          Handcrafted With Soul
+          <span class="eyebrow-line"></span>
+        </div>
+        <h1 class="hero-title reveal delay-1">
+          Where Every Thread<br>
+          <em>Tells a Story</em>
+        </h1>
+        <p class="hero-subtitle reveal delay-2">
+          We travel to remote villages, hand-select artisans, and bring their finest work
+          directly to you — with zero middlemen and complete transparency.
+        </p>
+        <div class="hero-actions reveal delay-3">
+          <a href="product.html" class="btn btn-primary btn-lg">Explore The Crate</a>
+          <a href="#our-story" class="btn-hero-ghost">
+            <span class="play-icon">▶</span>
+            Our Story
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating artisan card -->
+      <div class="hero-artisan-card reveal delay-4">
+        <div class="hac-image-wrap">
+          <img src="https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=200&q=80" alt="Featured artisan">
+        </div>
+        <div class="hac-body">
+          <p class="hac-label">Featured Artisan</p>
+          <p class="hac-name">Sunita Devi</p>
+          <p class="hac-craft">Madhubani Painter · Bihar</p>
+          <div class="hac-impact">
+            <span>💚</span> Your order = direct wage
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero scroll indicator -->
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══ TICKER / MARQUEE ════════════════════════════════════ -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>✦ Handcrafted with love</span>
+      <span>◈ 1,200+ artisans supported</span>
+      <span>✦ Zero middlemen</span>
+      <span>◈ GI-tagged crafts</span>
+      <span>✦ Fair wages, always</span>
+      <span>◈ 18 Indian states</span>
+      <span>✦ Sustainable packaging</span>
+      <span>◈ Carbon-neutral shipping</span>
+      <span>✦ Handcrafted with love</span>
+      <span>◈ 1,200+ artisans supported</span>
+      <span>✦ Zero middlemen</span>
+      <span>◈ GI-tagged crafts</span>
+    </div>
+  </div>
+
+  <!-- ═══ IMPACT NUMBERS ══════════════════════════════════════ -->
+  <section class="impact-section section-sm">
+    <div class="container">
+      <div class="impact-grid">
+        <div class="impact-item reveal">
+          <span class="impact-num" data-target="1200">0</span>
+          <span class="impact-plus">+</span>
+          <p class="impact-label">Artisans Supported</p>
+          <div class="impact-bar"></div>
+        </div>
+        <div class="impact-item reveal delay-1">
+          <span class="impact-num" data-target="18">0</span>
+          <p class="impact-label">Indian States Covered</p>
+          <div class="impact-bar"></div>
+        </div>
+        <div class="impact-item reveal delay-2">
+          <span class="impact-num" data-target="4000">0</span>
+          <span class="impact-plus">+</span>
+          <p class="impact-label">Unique Craft Pieces</p>
+          <div class="impact-bar"></div>
+        </div>
+        <div class="impact-item reveal delay-3">
+          <span class="impact-num" data-target="92">0</span>
+          <span class="impact-percent">%</span>
+          <p class="impact-label">Revenue to Makers</p>
+          <div class="impact-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FEATURED PRODUCTS ═══════════════════════════════════ -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Handpicked For You</span>
+        <h2 class="section-title">This Season's Finest</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle">
+          Each piece is selected by our craft curators who personally visit the artisan's workshop before listing.
+        </p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="product-filters reveal">
+        <button class="tag active" onclick="filterProducts('all', this)" id="filter-all">All</button>
+        <button class="tag" onclick="filterProducts('textiles', this)">Textiles</button>
+        <button class="tag" onclick="filterProducts('pottery', this)">Pottery</button>
+        <button class="tag" onclick="filterProducts('art', this)">Art</button>
+        <button class="tag" onclick="filterProducts('home', this)">Home</button>
+        <button class="tag" onclick="filterProducts('sculptures', this)">Sculptures</button>
+      </div>
+
+      <div class="products-grid" id="homeProductsGrid">
+        <!-- Filled by JS -->
+      </div>
+
+      <div class="section-cta reveal">
+        <a href="product.html" class="btn btn-outline btn-lg">View All Crafts</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ARTISAN STORY FEATURE ════════════════════════════════ -->
+  <section class="story-section section" id="our-story">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-images reveal">
+          <div class="story-img-main">
+            <img src="https://images.unsplash.com/photo-1551614802-3aa5e9fb9e3a?w=600&q=80" alt="Artisan weaving">
+          </div>
+          <div class="story-img-secondary">
+            <img src="https://images.unsplash.com/photo-1564419320461-6870880221ad?w=400&q=80" alt="Clay pottery">
+            <div class="story-img-badge">
+              <span>Handmade</span>
+              <span>Always</span>
+            </div>
+          </div>
+        </div>
+        <div class="story-content reveal delay-2">
+          <span class="section-eyebrow">Our Mission</span>
+          <h2 class="section-title" style="text-align:left;margin-bottom:20px">
+            Craft is not a job.<br><em>It's an identity.</em>
+          </h2>
+          <p class="story-body">
+            Across India's villages, 7 million artisans practice skills that took generations to perfect.
+            Yet most earn less than ₹300 a day — while their work sells for 10x that in urban stores.
+          </p>
+          <p class="story-body">
+            The Curated Crate was built to close that gap. We work directly with maker communities,
+            pay transparent fair wages, and tell the full story behind every product.
+          </p>
+          <div class="story-pillars">
+            <div class="story-pillar">
+              <span class="pillar-icon">🤝</span>
+              <div>
+                <strong>Fair Wages</strong>
+                <p>Artisans set their price. We add 15% max markup.</p>
+              </div>
+            </div>
+            <div class="story-pillar">
+              <span class="pillar-icon">🌿</span>
+              <div>
+                <strong>Zero Waste</strong>
+                <p>Natural dyes, organic materials, biodegradable packaging.</p>
+              </div>
+            </div>
+            <div class="story-pillar">
+              <span class="pillar-icon">📜</span>
+              <div>
+                <strong>GI-Tagged Authenticity</strong>
+                <p>Every product is certified and traceable to its maker.</p>
+              </div>
+            </div>
+          </div>
+          <a href="product.html" class="btn btn-dark" style="margin-top:32px">Explore the Collection</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CATEGORIES ══════════════════════════════════════════ -->
+  <section class="categories-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Browse By Craft</span>
+        <h2 class="section-title">Every Tradition Represented</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="categories-grid" id="categoriesGrid">
+        <!-- Filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SUBSCRIPTION CRATE ══════════════════════════════════ -->
+  <section class="crate-section section">
+    <div class="container">
+      <div class="crate-card reveal">
+        <div class="crate-card-bg">
+          <img src="https://images.unsplash.com/photo-1513201099705-a9746bab22b7?w=1200&q=80" alt="Curated gift crate">
+          <div class="crate-card-overlay"></div>
+        </div>
+        <div class="crate-card-content">
+          <span class="section-eyebrow" style="border-color:rgba(248,243,236,0.4);color:var(--clr-ivory)">Monthly Subscription</span>
+          <h2 class="crate-title">The Curated Crate Box</h2>
+          <p class="crate-subtitle">
+            Every month, we curate a handpicked box of 4–6 artisan pieces from a different region of India.
+            Comes with artisan letters, craft guides, and exclusive discounts.
+          </p>
+          <div class="crate-features">
+            <div class="crate-feature"><span>✓</span> 4–6 handpicked pieces</div>
+            <div class="crate-feature"><span>✓</span> Artisan letter included</div>
+            <div class="crate-feature"><span>✓</span> Free shipping nationwide</div>
+            <div class="crate-feature"><span>✓</span> Cancel anytime</div>
+          </div>
+          <div class="crate-pricing">
+            <span class="crate-price">₹1,499</span>
+            <span class="crate-period">/ month</span>
+          </div>
+          <a href="profile.html" class="btn btn-primary">Subscribe to the Crate</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TESTIMONIALS ════════════════════════════════════════ -->
+  <section class="testimonials-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What Our Community Says</span>
+        <h2 class="section-title">Trusted By Conscious Buyers</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Madhubani wrap I received was breathtaking. The artisan's letter made me cry. I now feel personally connected to Sunita and her craft."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div>
+              <strong>Ananya Sharma</strong>
+              <span>Mumbai</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal delay-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"I've tried many artisan platforms. None come close to the storytelling quality here. Every product arrives like a gift, not just a purchase."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:linear-gradient(135deg,#8A9B7E,#2C1810)">R</div>
+            <div>
+              <strong>Rahul Menon</strong>
+              <span>Bangalore</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal delay-2">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"The Pashmina shawl is worth every rupee. Ghulam's story changed how I think about what I buy. This is the future of ethical commerce in India."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" style="background:linear-gradient(135deg,#C4764A,#8A9B7E)">P</div>
+            <div>
+              <strong>Priya Nair</strong>
+              <span>Kochi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ NEWSLETTER ══════════════════════════════════════════ -->
+  <section class="newsletter-section section-sm">
+    <div class="container">
+      <div class="newsletter-card reveal">
+        <span class="section-eyebrow">Stay In The Loop</span>
+        <h2 class="newsletter-title">New crafts, artisan stories, & crate reveals</h2>
+        <p class="newsletter-sub">Join 28,000+ conscious buyers who get first access.</p>
+        <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+          <input type="email" class="form-input newsletter-input" placeholder="Enter your email address" id="newsletterEmail">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="tcc-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-mark">◈</span>
+            The Curated Crate
+          </div>
+          <p>A new way to own handmade Indian heritage. Supporting 1,200+ artisans across 18 states, one craft at a time.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <a href="product.html">All Products</a>
+          <a href="product.html?category=textiles">Textiles</a>
+          <a href="product.html?category=pottery">Pottery</a>
+          <a href="product.html?category=art">Art</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Our Artisans</a>
+          <a href="#">Sustainability</a>
+          <a href="#">Press</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Shipping Policy</a>
+          <a href="#">Returns</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 The Curated Crate. Made with ♥ for Indian crafts.</span>
+        <span>Privacy · Terms · Cookies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="shared.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

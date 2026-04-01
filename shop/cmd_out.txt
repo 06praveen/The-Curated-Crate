@@ -1,0 +1,233 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.thecuratedcrate:shop >----------------------
+[INFO] Building shop 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ shop ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 24 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ shop ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 18 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[9,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[9,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/UserPreferenceRepository.java:[1,1] illegal character: '\ufeff'
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.453 s
+[INFO] Finished at: 2026-03-31T20:36:53+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project shop: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/ShopApplication.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/dto/AuthDto.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Address.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Artisan.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/CartItem.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Order.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/OrderItem.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Product.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/Subscription.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/User.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/entity/UserPreference.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/AddressRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/CartItemRepository.java:[9,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/OrderRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[8,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/ProductRepository.java:[9,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[1,10] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[3,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[4,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[5,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[6,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/SubscriptionRepository.java:[7,1] class, interface, enum, or record expected
+[ERROR] /C:/Users/Admin/OneDrive/Documents/JavaBackend/The Curated Crate/Claude/shop/src/main/java/com/thecuratedcrate/shop/repository/UserPreferenceRepository.java:[1,1] illegal character: '\ufeff'
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

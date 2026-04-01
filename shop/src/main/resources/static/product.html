@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Crafts — The Curated Crate</title>
+  <meta name="description" content="Browse authentic Indian artisan crafts. Filter by category, search by region or artisan name. Each product tells a real story.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+  <nav id="tcc-navbar"></nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="page-header-bg"></div>
+    <div class="container page-header-content">
+      <p class="page-eyebrow">The Collection</p>
+      <h1 class="page-title" id="pageTitle">Discover Artisan Crafts</h1>
+      <p class="page-subtitle" id="pageSubtitle">Every piece handmade. Every purchase meaningful.</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="product-main">
+    <div class="container">
+
+      <!-- ─── Toolbar ────────────────────────────────────────── -->
+      <div class="products-toolbar">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input
+            type="text"
+            id="productSearch"
+            class="search-input"
+            placeholder="Search crafts, artisans, regions…"
+            oninput="handleSearch()"
+          >
+          <button class="search-clear" id="searchClear" onclick="clearSearch()" style="display:none" aria-label="Clear search">✕</button>
+        </div>
+        <div class="toolbar-right">
+          <span class="results-count" id="resultsCount">12 crafts</span>
+          <select id="sortSelect" class="sort-select" onchange="handleSort()">
+            <option value="featured">Sort: Featured</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="rating">Highest Rated</option>
+            <option value="discount">Best Discount</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- ─── Sidebar + Grid ────────────────────────────────── -->
+      <div class="products-layout">
+
+        <!-- Sidebar Filters -->
+        <aside class="products-sidebar" id="productsSidebar">
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Category</h3>
+            <div class="sidebar-radio-group" id="categoryFilters">
+              <label class="sidebar-radio">
+                <input type="radio" name="category" value="all" checked onchange="applyFilters()">
+                <span>All Crafts</span>
+                <span class="filter-count">${TCC_PRODUCTS.length}</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Price Range</h3>
+            <div class="price-range-wrap">
+              <div class="price-inputs">
+                <div>
+                  <label class="form-label" style="font-size:0.65rem">Min (₹)</label>
+                  <input type="number" id="priceMin" class="price-input" placeholder="0" min="0" oninput="applyFilters()">
+                </div>
+                <div class="price-sep">—</div>
+                <div>
+                  <label class="form-label" style="font-size:0.65rem">Max (₹)</label>
+                  <input type="number" id="priceMax" class="price-input" placeholder="Any" min="0" oninput="applyFilters()">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">Rating</h3>
+            <div class="sidebar-radio-group" id="ratingFilters">
+              <label class="sidebar-radio">
+                <input type="radio" name="rating" value="0" checked onchange="applyFilters()">
+                <span>All Ratings</span>
+              </label>
+              <label class="sidebar-radio">
+                <input type="radio" name="rating" value="4.8" onchange="applyFilters()">
+                <span>★ 4.8 & above</span>
+              </label>
+              <label class="sidebar-radio">
+                <input type="radio" name="rating" value="4.5" onchange="applyFilters()">
+                <span>★ 4.5 & above</span>
+              </label>
+              <label class="sidebar-radio">
+                <input type="radio" name="rating" value="4.0" onchange="applyFilters()">
+                <span>★ 4.0 & above</span>
+              </label>
+            </div>
+          </div>
+
+          <button class="btn btn-ghost btn-sm clear-filters-btn" onclick="clearAllFilters()">
+            Clear All Filters
+          </button>
+        </aside>
+
+        <!-- Products Grid -->
+        <div class="products-area">
+          <div class="products-grid-full" id="productsGrid">
+            <!-- Filled by JS -->
+          </div>
+
+          <!-- Empty state -->
+          <div class="empty-state" id="emptyState" style="display:none">
+            <div class="empty-state-icon">🔍</div>
+            <h3>No crafts found</h3>
+            <p>Try adjusting your filters or searching for something different.</p>
+            <button class="btn btn-outline" onclick="clearAllFilters()">Clear Filters</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ─── Product Detail Modal ──────────────────────────────── -->
+  <div class="modal-overlay" id="productModal" onclick="closeModal(event)" role="dialog" aria-modal="true">
+    <div class="product-modal">
+      <button class="modal-close" onclick="closeModalDirect()" aria-label="Close">✕</button>
+
+      <div class="modal-grid">
+        <div class="modal-image-col">
+          <div class="modal-main-img">
+            <img src="" alt="" id="modalImg">
+          </div>
+          <div class="modal-badge-row" id="modalBadgeRow"></div>
+        </div>
+
+        <div class="modal-detail-col">
+          <p class="modal-category" id="modalCategory"></p>
+          <h2 class="modal-product-name" id="modalName"></h2>
+
+          <div class="modal-rating-row" id="modalRating"></div>
+
+          <div class="modal-price-row">
+            <span class="modal-price" id="modalPrice"></span>
+            <span class="modal-price-orig" id="modalPriceOrig"></span>
+            <span class="modal-discount-badge" id="modalDiscount"></span>
+          </div>
+
+          <p class="modal-description" id="modalDescription"></p>
+
+          <div class="modal-tags" id="modalTags"></div>
+
+          <!-- Artisan Story -->
+          <div class="artisan-story-box" id="artisanStoryBox">
+            <div class="asb-header">
+              <img src="" alt="" class="asb-photo" id="asbPhoto">
+              <div>
+                <p class="asb-label">Artisan</p>
+                <p class="asb-name" id="asbName"></p>
+                <p class="asb-location" id="asbLocation"></p>
+              </div>
+            </div>
+            <p class="asb-story" id="asbStory"></p>
+            <div class="asb-impact" id="asbImpact"></div>
+          </div>
+
+          <div class="modal-quantity">
+            <label class="form-label">Quantity</label>
+            <div class="qty-control">
+              <button class="qty-btn" onclick="changeModalQty(-1)">−</button>
+              <span id="modalQty">1</span>
+              <button class="qty-btn" onclick="changeModalQty(1)">+</button>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn btn-primary btn-lg" id="modalAddBtn" onclick="addModalToCart()">
+              Add to Crate
+            </button>
+            <button class="btn btn-outline" onclick="closeModalDirect()">Keep Browsing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="tcc-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><span class="logo-mark">◈</span> The Curated Crate</div>
+          <p>Authentic Indian artisan crafts. Zero middlemen. Full stories.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Discover</h4>
+          <a href="product.html">All Products</a>
+          <a href="product.html?category=textiles">Textiles</a>
+          <a href="product.html?category=pottery">Pottery</a>
+        </div>
+        <div class="footer-col">
+          <h4>Account</h4>
+          <a href="cart.html">My Cart</a>
+          <a href="profile.html">Profile</a>
+          <a href="profile.html">My Orders</a>
+        </div>
+        <div class="footer-col">
+          <h4>Help</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Returns</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 The Curated Crate</span>
+        <span>Privacy · Terms</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="shared.js"></script>
+  <script src="product.js"></script>
+</body>
+</html>

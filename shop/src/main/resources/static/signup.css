@@ -1,0 +1,131 @@
+/* ============================================================
+   signup.css — The Curated Crate
+   Additional styles for signup page
+   ============================================================ */
+
+/* Benefits panel */
+.signup-benefits {
+  margin-top: 20px;
+}
+
+.benefits-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--clr-ivory);
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.benefit-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.benefits-list strong {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--clr-ivory);
+  margin-bottom: 3px;
+}
+
+.benefits-list p {
+  font-size: 0.8rem;
+  color: var(--clr-clay);
+  line-height: 1.4;
+}
+
+/* Form row (two cols) */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.optional {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--clr-text-muted);
+  font-size: 0.72rem;
+}
+
+/* Password strength */
+.password-strength {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: all 0.3s;
+}
+
+.password-strength.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.strength-bar {
+  flex: 1;
+  height: 4px;
+  background: var(--clr-ivory-dk);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.strength-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: var(--radius-full);
+  background: #c0392b;
+  transition: width 0.4s var(--ease-out), background 0.3s;
+}
+
+.strength-fill.weak   { width: 25%; background: #e74c3c; }
+.strength-fill.fair   { width: 50%; background: #f39c12; }
+.strength-fill.good   { width: 75%; background: #27ae60; }
+.strength-fill.strong { width: 100%; background: #1e8449; }
+
+.strength-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--clr-text-muted);
+  white-space: nowrap;
+}
+
+/* Inline link in checkbox label */
+.inline-link {
+  color: var(--clr-saffron);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.inline-link:hover { opacity: 0.7; }
+
+/* Visual override for signup */
+.signup-visual {
+  background-color: var(--clr-walnut);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account — The Curated Crate</title>
+  <meta name="description" content="Join The Curated Crate — discover authentic Indian artisan crafts and support real makers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+  <div class="auth-layout">
+    <!-- Left Visual Panel -->
+    <div class="auth-visual signup-visual">
+      <div class="auth-visual-overlay"></div>
+      <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=900&q=80" alt="Artisan painting Warli art" class="auth-bg-img">
+
+      <div class="auth-visual-content">
+        <a href="home.html" class="auth-logo">
+          <span class="logo-mark">◈</span>
+          The Curated Crate
+        </a>
+
+        <div class="signup-benefits">
+          <h3 class="benefits-title">Why join our community?</h3>
+          <ul class="benefits-list">
+            <li>
+              <span class="benefit-icon">🤝</span>
+              <div>
+                <strong>Support real artisans</strong>
+                <p>100% of fair wages reach the maker directly</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon">🎁</span>
+              <div>
+                <strong>Curated monthly crates</strong>
+                <p>Surprise boxes of rare, handmade treasures</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon">📖</span>
+              <div>
+                <strong>Living stories</strong>
+                <p>Every product comes with its maker's journey</p>
+              </div>
+            </li>
+            <li>
+              <span class="benefit-icon">✨</span>
+              <div>
+                <strong>One-of-a-kind finds</strong>
+                <p>Unique pieces you won't find anywhere else</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Form Panel -->
+    <div class="auth-form-panel">
+      <div class="auth-form-wrapper">
+
+        <div class="auth-form-header">
+          <p class="auth-eyebrow">Join The Journey</p>
+          <h1 class="auth-title">Create your crate</h1>
+          <p class="auth-subtitle">Be part of a movement that keeps ancient crafts alive.</p>
+        </div>
+
+        <form id="signupForm" class="auth-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="signupName" class="form-label">Full Name</label>
+              <input type="text" id="signupName" class="form-input" placeholder="Your full name" autocomplete="name">
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="signupPhone" class="form-label">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="signupPhone" class="form-input" placeholder="10-digit number" maxlength="10">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="signupEmail" class="form-label">Email Address</label>
+            <input type="email" id="signupEmail" class="form-input" placeholder="you@example.com" autocomplete="email">
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="signupPassword" class="form-label">Password</label>
+            <div class="input-password-wrap">
+              <input type="password" id="signupPassword" class="form-input" placeholder="At least 8 characters" autocomplete="new-password">
+              <button type="button" class="toggle-password" onclick="togglePasswordVisibility('signupPassword', this)" aria-label="Toggle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+            <div class="password-strength" id="passwordStrength">
+              <div class="strength-bar"><div class="strength-fill" id="strengthFill"></div></div>
+              <span class="strength-label" id="strengthLabel">Password strength</span>
+            </div>
+            <span class="form-error" id="passwordError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <div class="input-password-wrap">
+              <input type="password" id="confirmPassword" class="form-input" placeholder="Repeat your password">
+              <button type="button" class="toggle-password" onclick="togglePasswordVisibility('confirmPassword', this)" aria-label="Toggle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </button>
+            </div>
+            <span class="form-error" id="confirmError"></span>
+          </div>
+
+          <div class="form-options">
+            <label class="checkbox-label">
+              <input type="checkbox" id="agreeTerms">
+              <span class="checkmark"></span>
+              I agree to the <a href="#" class="inline-link">Terms of Service</a> and <a href="#" class="inline-link">Privacy Policy</a>
+            </label>
+          </div>
+          <span class="form-error" id="termsError"></span>
+
+          <div class="form-error global-error" id="globalError"></div>
+
+          <button type="submit" id="signupBtn" class="btn btn-primary btn-full">
+            <span class="btn-text">Create Account</span>
+            <span class="btn-spinner" style="display:none;">
+              <svg class="spin-svg" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.3)" stroke-width="3"/><path d="M12 2a10 10 0 0 1 10 10" stroke="white" stroke-width="3" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+        </form>
+
+        <p class="auth-redirect">
+          Already have an account?
+          <a href="login.html">Sign in →</a>
+        </p>
+
+        <div class="artisan-note">
+          <span>🪔</span>
+          <p>By joining, you're choosing conscious commerce. Every purchase keeps India's craft heritage alive.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="shared.js"></script>
+  <script src="data.js"></script>
+  <script src="signup.js"></script>
+</body>
+</html>

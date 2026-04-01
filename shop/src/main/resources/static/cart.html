@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Crate — The Curated Crate</title>
+  <meta name="description" content="Review your curated selection before checkout.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <nav id="tcc-navbar"></nav>
+
+  <div class="page-header" style="padding: calc(var(--nav-height) + 48px) 0 48px">
+    <div class="page-header-bg"></div>
+    <div class="container page-header-content">
+      <p class="page-eyebrow">Your Selection</p>
+      <h1 class="page-title">Your Crate</h1>
+    </div>
+  </div>
+
+  <main class="cart-main section">
+    <div class="container">
+
+      <!-- Empty Cart State -->
+      <div class="empty-cart" id="emptyCart" style="display:none">
+        <div class="empty-cart-art">
+          <div class="empty-crate-icon">◈</div>
+          <h2>Your crate is empty</h2>
+          <p>You haven't added any artisan crafts yet. Discover something extraordinary.</p>
+          <a href="product.html" class="btn btn-primary btn-lg">Explore Crafts</a>
+        </div>
+        <div class="empty-suggestions" id="emptySuggestions"></div>
+      </div>
+
+      <!-- Cart Content -->
+      <div class="cart-layout" id="cartLayout">
+        <!-- Cart Items -->
+        <div class="cart-items-col">
+          <div class="cart-items-header">
+            <h2 class="cart-section-title">Curated Items</h2>
+            <button class="btn btn-ghost btn-sm" onclick="clearCartConfirm()">Clear All</button>
+          </div>
+
+          <div id="cartItemsList">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary-col">
+          <div class="cart-summary-card">
+            <h3 class="cart-summary-title">Order Summary</h3>
+
+            <div class="summary-promo">
+              <input type="text" class="form-input promo-input" id="promoInput" placeholder="Promo code">
+              <button class="btn btn-outline btn-sm" onclick="applyPromo()">Apply</button>
+            </div>
+            <p class="promo-msg" id="promoMsg"></p>
+
+            <div class="summary-lines" id="summaryLines">
+              <!-- Filled by JS -->
+            </div>
+
+            <div class="summary-total-row">
+              <span>Total</span>
+              <span id="cartGrandTotal">₹0</span>
+            </div>
+
+            <div class="cart-impact-note" id="cartImpactNote">
+              <!-- Filled by JS -->
+            </div>
+
+            <a href="checkout.html" class="btn btn-primary btn-full btn-lg" id="checkoutBtn">
+              Proceed to Checkout
+            </a>
+
+            <div class="cart-trust-badges">
+              <div class="trust-badge"><span>🔒</span> Secure Payment</div>
+              <div class="trust-badge"><span>↩</span> Easy Returns</div>
+              <div class="trust-badge"><span>🌿</span> Eco Packaging</div>
+            </div>
+          </div>
+
+          <!-- Artisan Support Note -->
+          <div class="artisan-support-note">
+            <div class="asn-icon">🤝</div>
+            <div>
+              <strong>You're supporting real artisans</strong>
+              <p>92% of your payment goes directly to the maker's hands.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="tcc-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;padding-top:0">
+        <span>© 2025 The Curated Crate. Every purchase supports Indian artisans.</span>
+        <a href="product.html" style="color:var(--clr-clay)">Continue Shopping →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="shared.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
