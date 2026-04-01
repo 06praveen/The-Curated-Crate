@@ -33,7 +33,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/auth/**").permitAll()
                 .requestMatchers("/api/products/**").permitAll()
                 // Static resources (frontend)
-                .requestMatchers("/", "/*.html", "/*.css", "/*.js", "/*.jpg", "/*.png", "/images/**").permitAll()
+                .requestMatchers("/", "/*.html", "/*.css", "/*.js", "/*.jpg", "/*.png", "/images/**", "/assests/**").permitAll()
                 .anyRequest().authenticated()
             )
             .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

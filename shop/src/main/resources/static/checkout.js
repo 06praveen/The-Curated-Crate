@@ -248,7 +248,10 @@ window.placeOrder = async function() {
       const p = getProductById(i.productId);
       return { productId: i.productId, name: p?.name, qty: i.qty, price: p?.price };
     }),
+    subtotal,
+    shipping,
     total,
+    discount: 0,
     address: addressData,
     payment: paymentData.label,
     artisanCount

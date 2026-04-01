@@ -22,19 +22,32 @@ public class OrderController {
     private final CartItemRepository cartItemRepository;
     private final UserRepository userRepository;
 
-    public OrderController(OrderRepository orderRepository, 
-                           CartItemRepository cartItemRepository, 
+    public OrderController(OrderRepository orderRepository,
+                           CartItemRepository cartItemRepository,
                            UserRepository userRepository) {
         this.orderRepository = orderRepository;
         this.cartItemRepository = cartItemRepository;
         this.userRepository = userRepository;
     }
 
+    // ── GET /api/orders  — order history for logged-in user ──────────────────
+    @GetMapping
+    public ResponseEntity<?> getOrders(Authentication authentication) {
+        if (authentication == null) return ResponseEntity.status(401).body("Not authenticated");
+        User user = userRepository.findByEmail(authentication.getName()).orElse(null);
+        if (user == null) return ResponseEntity.status(401).build();
+
+        List<Order> orders = orderRepository.findByUserOrderByPlacedAtDesc(user);
+        return ResponseEntity.ok(orders);
+    }
+
+    // ── POST /api/orders/checkout  — place a new order ────────────────────────
     @PostMapping("/checkout")
     @Transactional
-    public ResponseEntity<?> placeOrder(@RequestBody Map<String, Object> payload, Authentication authentication) {
+    public ResponseEntity<?> placeOrder(@RequestBody Map<String, Object> payload,
+                                        Authentication authentication) {
         if (authentication == null) return ResponseEntity.status(401).body("Not authenticated");
-        
+
         User user = userRepository.findByEmail(authentication.getName()).orElse(null);
         if (user == null) return ResponseEntity.status(401).build();
 
@@ -43,16 +56,34 @@ public class OrderController {
             return ResponseEntity.badRequest().body("Cart is empty");
         }
 
+        // ── Build Order entity ────────────────────────────────────────────────
         Order order = new Order();
         order.setUser(user);
         order.setOrderNumber("TCC" + System.currentTimeMillis());
-        
-        // Very basic extraction of total just for stubbing
-        BigDecimal total = new BigDecimal(payload.getOrDefault("total", "0").toString());
+
+        // Parse totals from payload
+        BigDecimal total    = parseBD(payload.getOrDefault("total", "0"));
+        BigDecimal subtotal = parseBD(payload.getOrDefault("subtotal", total.toString()));
+        BigDecimal shipping = parseBD(payload.getOrDefault("shipping", "0"));
+        BigDecimal discount = parseBD(payload.getOrDefault("discount", "0"));
+
         order.setTotal(total);
-        
+        order.setSubtotal(subtotal);
+        order.setShipping(shipping);
+        order.setDiscount(discount);
+
+        // Payment method
+        String paymentLabel = payload.getOrDefault("payment", "UPI").toString();
+        order.setPaymentMethod(paymentLabel);
+
+        // Artisan count
+        Object artisanCountObj = payload.getOrDefault("artisanCount", "1");
+        try { order.setArtisanCount(Integer.parseInt(artisanCountObj.toString())); }
+        catch (NumberFormatException ignored) { order.setArtisanCount(1); }
+
         order.setStatus(Order.OrderStatus.CONFIRMED);
-        
+
+        // ── Build OrderItems from cart ────────────────────────────────────────
         List<OrderItem> orderItems = cartItems.stream().map(cartItem -> {
             OrderItem item = new OrderItem();
             item.setOrder(order);
@@ -63,13 +94,24 @@ public class OrderController {
             item.setPrice(cartItem.getProduct().getPrice());
             return item;
         }).collect(Collectors.toList());
-        
+
         order.setItems(orderItems);
         orderRepository.save(order);
 
-        // Clear cart
+        // ── Clear the cart ────────────────────────────────────────────────────
         cartItemRepository.deleteByUser(user);
 
-        return ResponseEntity.ok(order);
+        return ResponseEntity.ok(Map.of(
+            "id",          order.getId(),
+            "orderNumber", order.getOrderNumber(),
+            "total",       order.getTotal(),
+            "status",      order.getStatus().name(),
+            "placedAt",    order.getPlacedAt().toString()
+        ));
+    }
+
+    private BigDecimal parseBD(Object val) {
+        try { return new BigDecimal(val.toString()); }
+        catch (Exception e) { return BigDecimal.ZERO; }
     }
 }

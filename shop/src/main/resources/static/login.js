@@ -152,11 +152,21 @@ function togglePasswordVisibility(inputId, btn) {
 
 // ─── Demo Login ───────────────────────────────────────────────
 async function quickDemo() {
-  document.getElementById("loginEmail").value = "demo@curatedcrate.in";
-  document.getElementById("loginPassword").value = "demo1234";
+  const demoEmail = "demo@curatedcrate.in";
+  const demoPass = "demo1234";
+
+  document.getElementById("loginEmail").value = demoEmail;
+  document.getElementById("loginPassword").value = demoPass;
   document.getElementById("loginEmail").style.borderColor = "#8A9B7E";
   document.getElementById("loginPassword").style.borderColor = "#8A9B7E";
   Toast.show("Demo credentials filled in ✦", "info", 2000);
+
+  // Ensure demo user exists in the backend before attempting login
+  try {
+    await Auth.signup("Demo User", demoEmail, demoPass, "9876543210");
+  } catch(e) {
+    // Ignore error, we will gracefully proceed to login
+  }
 
   // Auto-submit after brief delay
   await new Promise(r => setTimeout(r, 500));
